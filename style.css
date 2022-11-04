@@ -10,7 +10,20 @@ nav{
 nav ul{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-right: 20%;
     list-style-type: none;
+    
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.entete{
+    background-image:url(eval/img/banner.jpg);
+    height: 968px;
 }
