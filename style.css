@@ -4,6 +4,14 @@ header{
     background-image: no-repeat;
     height: 968px;
 }
+.bgfruit{
+    position:absolute;
+    background-image: url(eval/img/bg_fruit.png);
+    width:336px;
+    height:442px;
+    top: 0px;
+    left: 0px;
+}
 .bar_nav{
     display: flex;
     flex-direction: row;
@@ -32,33 +40,133 @@ font-weight: bold;
 .banner{
 display: flex;
 flex-direction: row;
-justify-content:space-around;
-background-color: #a0cb23;
+justify-content:space-between;
+width: 350px;
+
+
+/*background-color: #a0cb23;*/
+
+
 }
 .bouton1{
-    width: 200px;
+    width: 45%;
     height: 50px;
-    padding-left: 30px;
+    border-width: 1px;
+    background-color: #a0cb23;
+    padding-left: 3%;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
 }
-/*.bouton1{
+.bouton2{
+    width: 45%;
+    height: 50px;
+    border-width: 1px;
+    background-color: #14462d;
+    padding-left: 3%;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.mainbar{
+    height: 500px;
+  margin-right: 20%;
+  margin-left: 20%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.box{
+
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 31%;
+    height: 80%;
+    position: relative;
+}
+.box img{
+    position: absolute;
+    right:0;
+    height :80%;
+    bottom: 0;
+    }
+.box h2{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 30px;
+     
+}    
+.box div{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box p{
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.turquoise{
+    background:linear-gradient(145deg, rgb(53, 145, 220), rgb(35, 158, 155));
+}
+.orange{
+        background:linear-gradient(1145deg, rgb(226, 201, 155), rgb(235, 130, 140));
+}
+.vert{
+       background: linear-gradient(145deg, rgb(122, 219, 122), rgb(233, 130, 140 ));
+}
+
+.beef ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 150px;
-    height: 30px;
-    border-style: none;
-    background-color: #a0cb23;
-    padding-top: 10px;
-    
-    }
-
-.bouton2{
+    list-style-type: none;
+}
+.centrale{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+.populaires{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    width: 150px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Bouton_beef{
+    width: 80PX;
     height: 30px;
-    border-style: none;
     background-color: #a0cb23;
-    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    color: #fff;
+}
+.Bouton_broccolis{
+    
+        width: 80PX;
+        height: 30px;
+        background-color: #475c07;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 4px;
+        padding-bottom: 2px;
+        color: #fff;
+}
+.Bouton_fraises{
+   
+        width: 80PX;
+        height: 30px;
+        background-color: #a0cb23;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 4px;
+        padding-bottom: 2px;
+        color: #fff;
 }
