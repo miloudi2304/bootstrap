@@ -1,4 +1,7 @@
 
+.flex{
+    display: flex;
+}
 header{
     background-image:url(eval/img/banner.jpg);
     background-image: no-repeat;
@@ -127,6 +130,17 @@ width: 350px;
     flex-direction: row;
     list-style-type: none;
 }
+.broccolis ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.fraises ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
 .centrale{
     width: 25%;
     margin: auto;
@@ -169,6 +183,27 @@ width: 350px;
         padding-top: 4px;
         padding-bottom: 2px;
         color: #fff;
+}
+.populaires2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:20px;
+}
+.boisson_mangue ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.lait ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.miel ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
 .Bouton_mangue{
     width: 80PX;
