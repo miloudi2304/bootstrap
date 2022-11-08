@@ -170,3 +170,33 @@ width: 350px;
         padding-bottom: 2px;
         color: #fff;
 }
+.Bouton_mangue{
+    width: 80PX;
+    height: 30px;
+    background-color: #475c07;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    color: #fff;
+}
+.Bouton_lait{
+    width: 80PX;
+    height: 30px;
+    background-color: #475c07;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    color: #fff;
+}
+.Bouton_Miel{
+    width: 80PX;
+    height: 30px;
+    background-color: #475c07;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    color: #fff;
+}
