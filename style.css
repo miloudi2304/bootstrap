@@ -124,21 +124,46 @@ width: 350px;
 .vert{
        background: linear-gradient(145deg, rgb(122, 219, 122), rgb(233, 130, 140 ));
 }
+.boite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(243, 233, 233);
+    width:280px;
+    height:350px;
+   
+}
+
 
 .beef ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+
+}
+.beef p{
+    font-size: 20px;
+    text-align: center;
 }
 .broccolis ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
+.broccolis p{
+    font-size: 20px;
+    text-align: center;
+}
 .fraises ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+.fraises p{
+    font-size: 20px;
+    text-align: center;
+   
 }
 
 .centrale{
@@ -147,9 +172,13 @@ width: 350px;
     text-align: center;
 }
 .populaires{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .Bouton_beef{
@@ -164,7 +193,7 @@ width: 350px;
 }
 .Bouton_broccolis{
     
-        width: 80PX;
+        width: 80pX;
         height: 30px;
         background-color: #475c07;
         text-align: center;
@@ -185,9 +214,13 @@ width: 350px;
         color: #fff;
 }
 .populaires2{
+
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     padding:20px;
 }
 .boisson_mangue ul{
@@ -234,4 +267,23 @@ width: 350px;
     padding-top: 4px;
     padding-bottom: 2px;
     color: #fff;
+}
+.foot{
+    width: 50%;
+    margin:auto;
+    background-color: #a0cb23;
+    position:relative;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.foot img{
+    height:70%;
+    position: absolute;
+    right :0;
+  
+   
+
 }
