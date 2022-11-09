@@ -16,9 +16,6 @@
 <body>
 
     <header>
-        <div class="bgfruit">
-            <img src="eval/img/bg_fruit.png" alt="fruits">
-        </div>
         <div class="bar_nav">
             <img src="eval/img/logo.png" alt="logo" width="200px" height="100">
 
@@ -32,27 +29,31 @@
             <i class="fa-solid fa-user"></i>
             <i class="fa-regular fa-heart"></i>
             <i class="fa-solid fa-cart-arrow-down"></i>
+            <span>0</span>
 
         </div>
-        <div class="bienvenue">
-            <div>
+                <div class="flex">
+                    <div class="bienvenue">
+                        <div>
 
-                <h2>Bienvenue dans notre epicerie en ligne</h2>
-                <h1>Boutique en ligne de<br>de Produits Frais</h1>
-                <h3>Votre Click & collect prés de chez vous</h3>
+                            <h2>Bienvenue dans notre epicerie en ligne</h2>
+                            <h1>Boutique en ligne de<br>de Produits Frais</h1>
+                            <h3>Votre Click & collect prés de chez vous</h3>
+                        </div>
+                
+                        <div class="banner">
+                            <div class="bouton1"><a href="#" target="_blank">Faire ses Courses</a></div>
+                            <div class="bouton2"><a href="#" target="_blank">En Savoir plus</a></div>
+            
+                        </div>
+                    </div>
+                     <!-- <img src="eval/img/banner.jpg" alt="Panier composé de fruits et légumes"
+                      class="img_banner">-->
+                </div>
+
+
             </div>
-
-
-            <div class="banner">
-                <div class="bouton1"><a href="www.https://google.com" target="_blank"></a>Faire ses Courses</div>
-                <div class="bouton2">En savoir plus</div>
-
-            </div>
-        </div>
-
-
-        </div>
-        </div>
+    
     </header>
 
     <!--<div class="milieu_photos">
@@ -101,9 +102,9 @@
     </div>
     <section>
         <div class="flex populaires">
-            <div class="beef boite">
+            <div class="beef boite relative">
+                <h4>HOT</h4>
                 <img src="eval/img/beef.png" alt="beuf">
-
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -111,12 +112,15 @@
                     <li><i class="fa-regular fa-star"></i></li>
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
+                <i class="fa-regular fa-heart"></i>
                 <p>Steak de beuf</p>
+                
                 <span>15</span>
                 <div class="Bouton_beef">AJOUTER</div>
             </div>
 
-            <div class="broccolis boite">
+            <div class="broccolis boite relative">
+
                 <img src="eval/img/broccoli.png" alt="beuf">
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -125,12 +129,13 @@
                     <li><i class="fa-regular fa-star"></i></li>
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
+                <i class="fa-regular fa-heart"></i>
                 <p>Broccolis</p>
                 <span>15</span>
-                <div class="Bouton_broccolis">AJOUTER</div>
+                <div class="Bouton_broccolis relative">AJOUTER</div>
             </div>
 
-            <div class="fraises boite">
+            <div class="fraises boite relative">
                 <img src="eval/img/fraises.png" alt="beuf">
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -139,6 +144,7 @@
                     <li><i class="fa-regular fa-star"></i></li>
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
+                <i class="fa-regular fa-heart"></i>
                 <p>beuf</p>
                 <span>15</span>
                 <div class="Bouton_fraises">AJOUTER</div>
@@ -146,8 +152,8 @@
 
         </div>
         <!--<div class="populaires">-->
-        <div class="populaires2">
-            <div class="boisson_mangue boite">
+        <div class="flex populaires2">
+            <div class="boisson_mangue boite relative">
                 <img src="eval/img/mangue.png" alt="beuf">
 
                 <ul>
@@ -157,13 +163,13 @@
                     <li><i class="fa-regular fa-star"></i></li>
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
-
+                <i class="fa-regular fa-heart"></i>
                 <p>boisson a la mangue</p>
                 <span>15</span>
                 <div class="Bouton_mangue">AJOUTER</div>
             </div>
 
-            <div class="lait boite">
+            <div class="lait boite relative">
                 <img src="eval/img/lait.png" alt="beuf">
 
                 <ul>
@@ -173,13 +179,13 @@
                     <li><i class="fa-regular fa-star"></i></li>
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
-
+                <i class="fa-regular fa-heart"></i>
                 <p>Lait du Jour</p>
                 <span>15</span>
                 <div class="Bouton_lait">AJOUTER</div>
             </div>
 
-            <div class="miel boite" >
+            <div class="miel boite relative" >
                 <img src="eval/img/miel.png" alt="beuf">
 
                 <ul>
@@ -189,7 +195,7 @@
                     <li><i class="fa-regular fa-star"></i></li>
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
-
+                <i class="fa-regular fa-heart"></i>
                 <p>Miel Frais</p>
                 <span>15</span>
                 <div class="Bouton_Miel">AJOUTER</div>
@@ -199,8 +205,9 @@
         <footer>
             <div class="foot">
                 <img src="eval/img/panier.jpg" alt="panier de fruits et legumes">
-                
+
                 <h3>Les Produits<br>Les Populaires</h3>
+                <h4>50% de réduction<br>j'en profite</r></h4>
                 <span></span>
 
             </div>

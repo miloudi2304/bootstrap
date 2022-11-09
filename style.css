@@ -1,56 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: url("eval/img/bg_fruit.png") , url("eval/img/banner.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+
+   }
+
 
 .flex{
     display: flex;
 }
+
 header{
-    background-image:url(eval/img/banner.jpg);
-    background-image: no-repeat;
+    /* background-image:url(eval/img/banner.jpg);
+    background-image: no-repeat; */
     height: 968px;
 }
-.bgfruit{
-    position:absolute;
-    background-image: url(eval/img/bg_fruit.png);
-    width:336px;
-    height:442px;
-    top: 0px;
-    left: 0px;
+
+.img_banner {
+    width: 70%;
 }
+
 .bar_nav{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    padding: 2%;
+    margin-top: 2%;
+    margin-left: 350px;
    
-       
-}
+
+   }
+   
+   .bar_nav span{
+    position: absolute;
+    right:5px;
+    font-size: 0.75em;
+    color: #fff;
+    background-color: #475c07;
+    right: 3%;
+    top: 1%;
+   }
+   .bar_nav i{
+    color:#c2e262;
+    font-size: 1.2em;
+    background-color: #fff;
+    border-radius: 50%;
+    height:fit-content;
+    padding:5px;
+   
+    
+   }
+
 .bienvenue{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width:30%;
     height:30%;
-    margin-left:100px;
+    margin-left:22%;
+    padding-top: 5%;
 }
+.bienvenue h2 h1 h3{
+    margin-left:10%;
+}
+
 .bienvenue h1{
 font-weight: bold;
 }
+
 .bienvenue h2{
     color: #a0cb23;
 }
+
 .benvenue h3{
     font-weight:bold;
 }
+.bienvenue a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .banner{
 display: flex;
 flex-direction: row;
 justify-content:space-between;
 width: 350px;
-
-
 /*background-color: #a0cb23;*/
-
-
 }
+
 .bouton1{
     width: 45%;
     height: 50px;
@@ -62,6 +101,7 @@ width: 350px;
     font-weight: bold;
     color: #fff;
 }
+
 .bouton2{
     width: 45%;
     height: 50px;
@@ -72,21 +112,20 @@ width: 350px;
     text-align: center;
     font-weight: bold;
     color: #fff;
-    
-}
+  }
 
 .mainbar{
     height: 500px;
   margin-right: 20%;
   margin-left: 20%;
+  margin-top: 0%;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items: center;
-    
-}
+ }
+ 
 .box{
-
    display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,22 +133,24 @@ width: 350px;
     height: 80%;
     position: relative;
 }
+
 .box img{
     position: absolute;
     right:0;
     height :80%;
     bottom: 0;
     }
+
 .box h2{
     font-size: 20px;
     padding-left: 5px;
-    padding-right: 30px;
-     
-}    
+ }  
+
 .box div{
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .box p{
     font-size: 10px;
     padding-left: 5px;
@@ -118,59 +159,62 @@ width: 350px;
 .turquoise{
     background:linear-gradient(145deg, rgb(53, 145, 220), rgb(35, 158, 155));
 }
+
 .orange{
         background:linear-gradient(1145deg, rgb(226, 201, 155), rgb(235, 130, 140));
 }
+
 .vert{
        background: linear-gradient(145deg, rgb(122, 219, 122), rgb(233, 130, 140 ));
 }
-.boite{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    background-color: rgb(243, 233, 233);
-    width:280px;
-    height:350px;
-   
+
+
+.relative {
+    position:relative;
 }
-
-
 .beef ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-
 }
+
 .beef p{
     font-size: 20px;
     text-align: center;
 }
+
 .broccolis ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
+
 .broccolis p{
     font-size: 20px;
     text-align: center;
 }
+.broccolis .fa-heart{
+    color: #c2e262;
+  
+}
+
 .fraises ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
+
 .fraises p{
     font-size: 20px;
     text-align: center;
-   
-}
+ }
 
 .centrale{
     width: 25%;
     margin: auto;
     text-align: center;
 }
+
 .populaires{
     width: 50%;
     margin: auto;
@@ -179,40 +223,70 @@ width: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
 }
 
 .Bouton_beef{
     width: 80PX;
     height: 30px;
-    background-color: #a0cb23;
+    background-color: #475c07;
     text-align: center;
     font-weight: bold;
     padding-top: 4px;
     padding-bottom: 2px;
     color: #fff;
 }
+.boite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color:#f6fafb;
+    width:280px;
+    height:350px;
+  }
+.boite h4{
+   position:absolute;
+   top:0;
+   left:0;
+   margin:0;
+   color:#fff;
+   background-color: rgb(243, 104, 104);
+   padding: 5px;
+}
+.boite .fa-heart{
+    position:absolute;
+    padding-top: 10px;
+    padding-right: 10px;
+    top:2px;
+    right:2px;
+    
+ } 
+  
 .Bouton_broccolis{
     
         width: 80pX;
-        height: 30px;
-        background-color: #475c07;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 4px;
-        padding-bottom: 2px;
-        color: #fff;
-}
-.Bouton_fraises{
-   
-        width: 80PX;
         height: 30px;
         background-color: #a0cb23;
         text-align: center;
         font-weight: bold;
         padding-top: 4px;
         padding-bottom: 2px;
+        
+       
+}
+
+.Bouton_fraises{
+        width: 80PX;
+        height: 30px;
+    background-color: #475c07;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 4px;
+        padding-bottom: 2px;
         color: #fff;
 }
+
 .populaires2{
 
     width: 50%;
@@ -223,21 +297,25 @@ width: 350px;
     justify-content: space-between;
     padding:20px;
 }
+
 .boisson_mangue ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
+
 .lait ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
+
 .miel ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
+
 .Bouton_mangue{
     width: 80PX;
     height: 30px;
@@ -248,6 +326,7 @@ width: 350px;
     padding-bottom: 2px;
     color: #fff;
 }
+
 .Bouton_lait{
     width: 80PX;
     height: 30px;
@@ -258,6 +337,7 @@ width: 350px;
     padding-bottom: 2px;
     color: #fff;
 }
+
 .Bouton_Miel{
     width: 80PX;
     height: 30px;
@@ -268,22 +348,43 @@ width: 350px;
     padding-bottom: 2px;
     color: #fff;
 }
+
 .foot{
     width: 50%;
     margin:auto;
     background-color: #a0cb23;
     position:relative;
-    height:200px;
+    height:150px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
+
 .foot img{
     height:70%;
     position: absolute;
     right :0;
-  
-   
+ }
+
+.foot h3{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.foot h4{
+    text-align:left;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 10px;
+}
+@media screen and (max-width:600px){
+    .flex {
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-around;
+    }
 
 }
