@@ -1,59 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exercice</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Evaluation bootstrap</title>
 </head>
 
 <body>
 
     <header>
-        <div class="bar_nav">
-            <img src="eval/img/logo.png" alt="logo" width="200px" height="100">
+        <nav class="navbar bg-lignt">
 
-            <p>Acceuil</p>
-            <p>A propos</p>
-            <p>Boutique</p>
-            <p>Page</p>
-            <p>Blog</p>
-            <p>Contact</p>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-cart-arrow-down"></i>
-            <span>0</span>
+            <div class="container">
+                <div class="container navbar-brand"><img src="assets/img/logo.png"></div>
+                <!--<div class="container-fluid">-->
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"></a>
+                        </li>
+                    </ul>
 
-        </div>
-                <div class="flex">
-                    <div class="bienvenue">
-                        <div>
-
-                            <h2>Bienvenue dans notre epicerie en ligne</h2>
-                            <h1>Boutique en ligne de<br>de Produits Frais</h1>
-                            <h3>Votre Click & collect prés de chez vous</h3>
-                        </div>
+                </div>
+            </div>
+            <div class="container navbar-brand">
+                <p>Acceuil</p>
+                <p>A propos</p>
+                <p>Boutique</p>
+                <p>Page</p>
+                <p>Blog</p>
+                <p>Contact</p>
+           
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <span>0</span>
+               </div> 
                 
-                        <div class="banner">
-                            <div class="bouton1"><a href="#" target="_blank">Faire ses Courses</a></div>
-                            <div class="bouton2"><a href="#" target="_blank">En Savoir plus</a></div>
-            
-                        </div>
-                    </div>
-                     <!-- <img src="eval/img/banner.jpg" alt="Panier composé de fruits et légumes"
-                      class="img_banner">-->
+        </nav>
+
+        <div class="flex">
+            <div class="bienvenue">
+                <div>
+                    <h1>Boutique en ligne de<br>de Produits Frais</h1>
+                    <h2>Bienvenue dans notre epicerie en ligne</h2>
+                    <h3>Votre Click & collect prés de chez vous</h3>
                 </div>
 
-
+                <div class="banner">
+                    <div class="bouton1"><a href="#" target="_blank">Faire ses Courses</a></div>
+                    <div class="bouton2"><a href="#" target="_blank">En Savoir plus</a></div>
+                </div>
             </div>
-    
+
+            <img src="assets/img/banner.jpg" alt="Panier composé de fruits et légumes" class="img_banner">
+        </div>
+
+
+
+
     </header>
 
     <!--<div class="milieu_photos">
@@ -77,21 +95,21 @@
                 <h2>Trouvez vos légumes préferés</h2>
                 <p>J'en profite <i class="fa-solid fa-arrow-right"></i></p>
             </div>
-            <img src="eval/img/legumes.png" alt="un sac de légumes">
+            <img src="assets/img/legumes.png" alt="un sac de légumes">
         </div>
         <div class="flex column spacearound box orange relative">
             <div>
                 <h2>Notre meilleur sélection de boissons</h2>
                 <p>J'en profite <i class="fa-solid fa-arrow-right"></i></p>
             </div>
-            <img src="eval/img/boisson.png" alt="une bouteille de jus de pamplemousse">
+            <img src="assets/img/boisson.png" alt="une bouteille de jus de pamplemousse">
         </div>
         <div class="flex column spacearound box vert relative">
             <div>
                 <h2>Produits beauté et santé</h2>
                 <p>J'en profite <i class="fa-solid fa-arrow-right"></i></p>
             </div>
-            <img src="eval/img/beaute.png" alt="des produits de beauté">
+            <img src="assets/img/beaute.png" alt="des produits de beauté">
         </div>
     </section>
 
@@ -104,7 +122,7 @@
         <div class="flex populaires">
             <div class="beef boite relative">
                 <h4>HOT</h4>
-                <img src="eval/img/beef.png" alt="beuf">
+                <img src="assets/img/beef.png" alt="beuf">
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -114,14 +132,14 @@
                 </ul>
                 <i class="fa-regular fa-heart"></i>
                 <p>Steak de beuf</p>
-                
+
                 <span>15</span>
                 <div class="Bouton_beef">AJOUTER</div>
             </div>
 
             <div class="broccolis boite relative">
 
-                <img src="eval/img/broccoli.png" alt="beuf">
+                <img src="assets/img/broccoli.png" alt="broccolis">
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -136,7 +154,7 @@
             </div>
 
             <div class="fraises boite relative">
-                <img src="eval/img/fraises.png" alt="beuf">
+                <img src="assets/img/fraises.png" alt="fraises">
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -145,7 +163,7 @@
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
                 <i class="fa-regular fa-heart"></i>
-                <p>beuf</p>
+                <p>Fraises</p>
                 <span>15</span>
                 <div class="Bouton_fraises">AJOUTER</div>
             </div>
@@ -154,7 +172,7 @@
         <!--<div class="populaires">-->
         <div class="flex populaires2">
             <div class="boisson_mangue boite relative">
-                <img src="eval/img/mangue.png" alt="beuf">
+                <img src="assets/img/miel.png" alt="pot de miel">
 
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -164,13 +182,13 @@
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
                 <i class="fa-regular fa-heart"></i>
-                <p>boisson a la mangue</p>
+                <p>Miel Frais</p>
                 <span>15</span>
                 <div class="Bouton_mangue">AJOUTER</div>
             </div>
 
             <div class="lait boite relative">
-                <img src="eval/img/lait.png" alt="beuf">
+                <img src="assets/img/lait.png" alt="Lait">
 
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -185,8 +203,8 @@
                 <div class="Bouton_lait">AJOUTER</div>
             </div>
 
-            <div class="miel boite relative" >
-                <img src="eval/img/miel.png" alt="beuf">
+            <div class="miel boite relative">
+                <img src="assets/img/mangue.png" alt="boisson a la mangue">
 
                 <ul>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -196,23 +214,28 @@
                     <li><i class="fa-regular fa-star"></i></li>
                 </ul>
                 <i class="fa-regular fa-heart"></i>
-                <p>Miel Frais</p>
+                <p>Boisson a la mangue</p>
                 <span>15</span>
                 <div class="Bouton_Miel">AJOUTER</div>
-            </div></div>
-         
+            </div>
+        </div>
+
         </div>
         <footer>
             <div class="foot">
-                <img src="eval/img/panier.jpg" alt="panier de fruits et legumes">
-
-                <h3>Les Produits<br>Les Populaires</h3>
-                <h4>50% de réduction<br>j'en profite</r></h4>
-                <span></span>
+                <img src="assets/img/panier.jpg" alt="panier de fruits et legumes">
+                <div class="foot_flex">
+                <p>50% </p>
+                <h3>de réduction<br>j'en profite</br></h3>
+                <h4>Les Produits<br>Les Populaires</h4>
+            </div>
+                
+                
 
             </div>
         </footer>
     </section>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 
