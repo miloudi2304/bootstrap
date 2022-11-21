@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background: url("eval/img/bg_fruit.png") , url("eval/img/banner.jpg");
+    background: url("assets/img/bg_fruit.png") , url("assets/img/banner.jpg");
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
 
@@ -15,7 +15,7 @@ body {
 header{
     /* background-image:url(eval/img/banner.jpg);
     background-image: no-repeat; */
-    height: 968px;
+   /* height: 968px;*/
 }
 
 .img_banner {
@@ -70,16 +70,17 @@ header{
     margin-left:10%;
 }
 
-.bienvenue h1{
+.bienvenue h3{
 font-weight: bold;
 }
 
 .bienvenue h2{
     color: #a0cb23;
+    font-size: 15px;
 }
 
-.benvenue h3{
-    font-weight:bold;
+.bienvenue h4{
+    font-size: 15px;
 }
 .bienvenue a{
     text-decoration: none;
@@ -187,6 +188,10 @@ width: 350px;
     text-align: center;
 }
 
+.broccolis{
+    border: 1px solid greenyellow;
+}
+
 .broccolis ul{
     display: flex;
     flex-direction: row;
@@ -223,7 +228,6 @@ width: 350px;
     width: 50%;
     margin: auto;
     margin-top: 50px;
-    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -299,7 +303,9 @@ width: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:20px;
+   padding-top: 10px;
+
+    
 }
 
 .boisson_mangue ul{
@@ -354,50 +360,59 @@ width: 350px;
 }
 
 .foot{
+    /*ce bloc il contient le bondeu vert les h3 h4 et p*/
     width: 50%;
     margin:auto;
-    background-color: #a0cb23;
+    background: #8db907;
     position:relative;
     height:150px;
-    
-  
-    
+    display: flex;
+          
+}
+.image_foot{
+    /*ce bloc contient l'image en bachground*/
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin:0;
+    width: 20%;
+    height:100%;
+    background: url("../img/panier.jpg");
+    border-top: 2px solid greenyellow; 
+    border-left: 20px solid greenyellow;
+    border-radius: 99% 0 0 0 ;
 }
 .foot_flex{
     display: flex;
-    justify-content:space-around;
     width: 70%;
     padding-left:2%;
+   
 }
-.foot img{
-position: absolute;
-    right :0;
-    width: 25%;
-    bottom: 0;
-    top: 0;
- }
 
 .foot h4{
-    padding-top: 30px;
+    padding-right: 10%;
+    padding-top: 10%;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
      
 }
 
 .foot h3{
    
    padding-top: 60px;
+   padding-right:8%;
    font-size: 1.5em;
    text-align: center;
    color: #fff;
        
 }
 
+
 .foot p{
     
     padding-top: 50px;
     color:yellow;
-    padding-left: 30px;
+    padding-right: 30px;
     font-size: 3em;
      
 }
